@@ -1,5 +1,3 @@
-import React from 'react'
-
 import GetStartedButton from '../common/buttons/start-button'
 import TopNav from '../nav/top'
 import HeaderLogo from './logo'
