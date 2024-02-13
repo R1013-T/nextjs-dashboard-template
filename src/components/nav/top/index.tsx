@@ -1,5 +1,5 @@
-import React from "react";
+import React from 'react'
 
 export default function TopNav() {
-  return <nav>Top Nav</nav>;
+  return <nav>Top Nav</nav>
 }
