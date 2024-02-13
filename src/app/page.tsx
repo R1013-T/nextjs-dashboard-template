@@ -1,16 +1,17 @@
+import GetStartedButton from '@/components/common/buttons/start-button'
 import Header from '@/components/header'
 import { ScrollArea } from '@/components/ui/scroll-area'
 
 export default function Home() {
   return (
     <article className="h-screen">
-      <Header />
+      <Header type='top' />
       <ScrollArea className="px-2">
         <section
           id="section1"
-          className="pt-12 h-screen border-2 border-orange-400"
+          className="pt-12 h-screen grid place-items-center border-2 border-orange-400"
         >
-          <p>section 1</p>
+          <GetStartedButton type='default' />
         </section>
         <section
           id="section2"
